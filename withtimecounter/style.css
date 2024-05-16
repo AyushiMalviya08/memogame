@@ -9,12 +9,23 @@
 p{
   font-size: 20px;
 }
+
 body{
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   background: #6563ff;
+}
+#header {
+  display: flex;
+  padding-left: 30px;
+  font-size: 40px;
+  background-color: rgb(255, 218, 8);
+  height: 70px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 ::selection{
   color: #fff;
